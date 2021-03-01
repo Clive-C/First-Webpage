@@ -1,20 +1,28 @@
 <!DOCTYPE html>
-<html>
+<!-- this section is a required section to start an html code as the lesson as instructed, to just learn it and type it in -->
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>Portfolio</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
+  
+  <!-- This section starts to be areas where I can change to create what my website looks like -->
   <body>
+    <!-- the header section is where I am putting in my profile picture, with my name and title -->
     <header>
       <div>
-        <img src="profile picture.jpg" width="100" alt="Profile Picture in Suit" class="rounded">
+        
+        <!-- i assigned the picture to a class "rounded" so i can specifically change the style of this picture in the .css file --> 
+        <img src="profile-picture.jpg" width="100" alt="Profile Picture in Suit" class="rounded">
+        
         <h1>Clive Chung</h1>
         <h2>Software Engineer / Project Manager</h2>
       </div>
     </header>
 
+    <!-- the following is the navigation section where i have links that are anchored to a specific section of the webpage-->
     <nav>
       <div>
         <a class="tab" href="#intro">Intro</a>
@@ -23,6 +31,7 @@
       </div>
     </nav>
 
+    <!-- this is the main section of the website where I use <p> to separate each paragraphs and <li> to lists certain things in an unordered format shown by <ul> -->
     <main>
       <div>
         <article id='intro'>
@@ -42,33 +51,41 @@
         </article>
       </div>
       
+      <!-- here i inserted a line break -->
       <hr>
       
+      <!-- this is a subsection of the main section where I again use the paragraph function to separate the paragraphs -->
       <div>
         <article id='about'>
           <h3>About Me</h3>
+          
           <p>I graduated University with a Medical Laboratory Science Degree and spent most of my career working in the Healthcare sector. </p>
 
-          <p>While working in a fast-paced, stressful laboratory setting dealing with potential highly infectious samples, there have always been a part of me that finds coding to be a quiet, almost soothing activity, especially when you accidentally enter into an infinite loop that you have no way to break out of =P. Coding has been part of my life whether I consciously knew it or not. From the early days of programming my own Quadratic Formula onto the TI-83 to customizing reporting rules for a laboratory analyzer to working with Macros and setting conditions on excel, the ability to code has been with me every step of my career path. </p>
+          <p>While working in a fast-paced, stressful laboratory setting dealing with potential highly infectious samples, there has always been a part of me that finds coding to be a quiet, almost soothing activity, especially when you accidentally enter into an infinite loop that you have no way to break out of =P. Coding has been part of my life whether I consciously knew it or not. From the early days of programming my own Quadratic Formula onto the TI-83 to customizing reporting rules for a laboratory analyzer to working with Macros and setting conditions on excel, the ability to code has been with me every step of my career path. </p>
 
           <p>Now, it is the perfect chance for me to transition fully into the world of the Matrix... I mean Software Engineering and would love to work with all the great software engineers out there to create software that changes the way we live and improve it for a better tomorrow.</p>
+          
         </article>
       </div>
 
+      <!-- another line break -->
       <hr>
       
+      <!-- In the folowing section, I have use an order list function on links to my linkedIn, GitHub and email -->
       <div>
         <article id='contact'>
           <h3>Contact Me</h3>
           <p> Please Feel free to reach out and contact me or follow me.
           <ol>
-          <a href="https://www.linkedin.com/in/clive-k-chung/"> <li>Linkedin</li></a>
-          <a href="https://github.com/Clive-C"><li>Github</li></a>
+          <li><a href="https://www.linkedin.com/in/clive-k-chung/"> LinkedIn</a></li>
+          <li><a href="https://github.com/Clive-C">GitHub</a></li>
+          <li><a href="mailto:chung.ck@gmail.com">Email</a></li>
           </ol>
         </article>
       </div>
     </main>
     <hr>
+    <!-- this is the footer section of my code-->
     <footer>
       <h6>******Thank you for Visiting My Page******</h6>
     </footer>
