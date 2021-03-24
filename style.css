@@ -64,11 +64,23 @@ p{
 /* assigns the nav section to have its text to the right*/
 nav {
   text-align: right;
-
-/* assigns the list items to have a 5 inch margin */
 }
-li {
-  margin-inline-start: 5in;
+
+/* assigns the overall text in the div to be centered */
+div {
+  text-align: center
+}
+
+/* assigns the unordered list to be centered while aligning to the left*/
+ul {
+  display: inline-block;
+  text-align: left;
+}
+
+/* assigns the ordered list to be centered while aligning to the left*/
+ol {
+  display: inline-block;
+  text-align: left;
 }
 
 /* changes the main section of the body to have a background color of beige */
@@ -103,3 +115,4 @@ footer{
   background-color: black;
   color: white;
 }
+
